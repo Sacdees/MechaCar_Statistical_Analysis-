@@ -52,11 +52,61 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 Many of the factor of the car build should change the value of how much MPG the MechaCar produces.  It would appear that vehicle weight and ground clearance seem to have the least affect on MPG, which would be a suprising result.  The regression would not be zero because of a postitive correlation between the different factors and the results produced ; as you change the variables the data changes as well.  The accuracy of this model falls around 71-72% and would recommend further testing before looking in on this data analysis for MPG determination.  
 
 # DELIVERABLE 2 
-## :
+## Summary Statistic on Suspension Coils:
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils should not exceed 100 pounds per square inch.
 
 ![mecha_mpg](https://github.com/Sacdees/MechaCar_Statistical_Analysis-/blob/main/Resources/mecha_coil.png)
 
-![mecha_mpg](https://github.com/Sacdees/MechaCar_Statistical_Analysis-/blob/main/Resources/lot_summary.png)
+- ## Total Summary
 
 ![mecha_mpg](https://github.com/Sacdees/MechaCar_Statistical_Analysis-/blob/main/Resources/total_summary.png)
-- ## LINEAR MODEL
+
+- ## Lot Summary
+
+![mecha_mpg](https://github.com/Sacdees/MechaCar_Statistical_Analysis-/blob/main/Resources/lot_summary.png)
+
+- ## Summary
+It would appear from the data given from this model that the test has fallen within the 100 pounds per square inch metric.  The PSI variance in the model was 62.29 well within the 100 PSI requirement.
+
+# DELIVERABE 3
+## T-Tests on Suspension Coils
+
+t.test(lot1$PSI,mu=1500)
+
+	One Sample t-test
+
+data:  lot1$PSI
+t = 0, df = 49, p-value = 1
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.719 1500.281
+sample estimates:
+mean of x 
+     1500 
+
+t.test(lot2$PSI,mu=1500)
+
+	One Sample t-test
+
+data:  lot2$PSI
+t = 0.51745, df = 49, p-value = 0.6072
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1499.423 1500.977
+sample estimates:
+mean of x 
+   1500.2 
+
+t.test(lot3$PSI,mu=1500)
+
+	One Sample t-test
+
+data:  lot3$PSI
+t = -2.0916, df = 49, p-value = 0.04168
+alternative hypothesis: true mean is not equal to 1500
+95 percent confidence interval:
+ 1492.431 1499.849
+sample estimates:
+mean of x 
+  1496.14 
