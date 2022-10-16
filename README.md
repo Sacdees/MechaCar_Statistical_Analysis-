@@ -110,3 +110,9 @@ alternative hypothesis: true mean is not equal to 1500
 sample estimates:
 mean of x 
   1496.14 
+
+  ## Summary
+
+# DELIVERABLE 4
+## Study Design: MechaCar vs Competition:
+
