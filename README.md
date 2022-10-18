@@ -113,6 +113,16 @@ mean of x
 
   ## Summary
 
+  The following tests appear to hit and come close to the desired metrics as inticipated for the suspension tests.  These are just examples and the tests should be done extensively in comparison to other models of similar class to make sure they get the desired performance compared to other competitor products for ride quality.  
+
+
+
 # DELIVERABLE 4
 ## Study Design: MechaCar vs Competition:
+
+MechaCar at this time and point is ready to start apploy concepts to the data from his data team.  Researh is not wanted in comparison to other well-established products in the space with large consumber base and reliable sales and usage metrics.  Using the A/B testings will randomize the controlled experiement and help prevent bias on the results.  
+
+MechaCar should perform statistical analysis and A/B blind comparison on several metrics if they wish to become competitive in the market, but as a start they should test: Miles Per Gallons (mpg) - monetary benefit ; Pound per square inch (psi) - ride quality ; 0 to 60 seconds test - performance ; Brake Testing on a specific distance - 200-1000 feet or safety standard for testing ; and ineterior decibel levels (dbs) - comfort quality.  These are all comparable metrics that can provide MechaCar on a great starting position.
+
+If any of these metrics are less than the competitor than they must decice what is the target price point, audience and many other factors of company postioning using null or altertative anaylsis of the data ; yes or no ; tweak and test again.
 
